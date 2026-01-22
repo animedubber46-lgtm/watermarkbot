@@ -1,0 +1,13 @@
+setup:
+  config:
+    MONGODB_URI: $MONGODB_URI
+    BOT_TOKEN: $BOT_TOKEN
+    API_ID: $API_ID
+    API_HASH: $API_HASH
+build:
+  languages:
+    - nodejs
+  config:
+    NODE_ENV: production
+run:
+  web: npm start
